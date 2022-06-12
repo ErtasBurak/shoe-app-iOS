@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Shoes_" representedClassName="Shoes_" syncable="YES" codeGenerationType="class">
+    <entity name="Shoes_" representedClassName=".Shoes_" syncable="YES">
         <attribute name="description_" optional="YES" attributeType="String"/>
+        <attribute name="detaildescription" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
         <attribute name="price" optional="YES" attributeType="String"/>
         <attribute name="product" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Shoes_" positionX="-36" positionY="18" width="128" height="74"/>
+        <element name="Shoes_" positionX="0" positionY="81" width="128" height="104"/>
     </elements>
 </model>

@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7874AC3F2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC3D2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld */; };
+		7874AC452854ED3C00689417 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC442854ED3C00689417 /* PersistenceManager.swift */; };
+		7874AC482854F2F900689417 /* Shoes_+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC462854F2F900689417 /* Shoes_+CoreDataClass.swift */; };
+		7874AC492854F2F900689417 /* Shoes_+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC472854F2F900689417 /* Shoes_+CoreDataProperties.swift */; };
+		7874AC4B28556B8700689417 /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC4A28556B8600689417 /* Shoe.swift */; };
 		787849DB2853892900CD33A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849DA2853892900CD33A3 /* AppDelegate.swift */; };
 		787849DD2853892900CD33A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849DC2853892900CD33A3 /* SceneDelegate.swift */; };
-		787849DF2853892900CD33A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849DE2853892900CD33A3 /* ViewController.swift */; };
-		787849E22853892900CD33A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787849E02853892900CD33A3 /* Main.storyboard */; };
-		787849E52853892900CD33A3 /* iOSCaseStudy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 787849E32853892900CD33A3 /* iOSCaseStudy.xcdatamodeld */; };
+		787849DF2853892900CD33A3 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849DE2853892900CD33A3 /* OnboardingScreen.swift */; };
 		787849E72853892E00CD33A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787849E62853892E00CD33A3 /* Assets.xcassets */; };
 		787849EA2853892E00CD33A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787849E82853892E00CD33A3 /* LaunchScreen.storyboard */; };
+		787849F328538E6100CD33A3 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849F228538E6100CD33A3 /* MainScreen.swift */; };
+		787849F52853967D00CD33A3 /* ShoesDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849F42853967D00CD33A3 /* ShoesDetailScreen.swift */; };
+		787849F72853A67500CD33A3 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849F62853A67400CD33A3 /* UIViewExt.swift */; };
+		787849FB2853B1E200CD33A3 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849FA2853B1E200CD33A3 /* ImageCell.swift */; };
+		E270BE8E789974D566C7C9A4 /* Pods_iOSCaseStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E729E1796D16EE3E61CB153 /* Pods_iOSCaseStudy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E729E1796D16EE3E61CB153 /* Pods_iOSCaseStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSCaseStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B85077E38C280C4CD48575B /* Pods-iOSCaseStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCaseStudy.debug.xcconfig"; path = "Target Support Files/Pods-iOSCaseStudy/Pods-iOSCaseStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		7874AC3E2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSCaseStudyCoreData.xcdatamodel; sourceTree = "<group>"; };
+		7874AC442854ED3C00689417 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		7874AC462854F2F900689417 /* Shoes_+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Shoes_+CoreDataClass.swift"; path = "iOSCaseStudy/CoreData/Shoes_+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7874AC472854F2F900689417 /* Shoes_+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Shoes_+CoreDataProperties.swift"; path = "iOSCaseStudy/CoreData/Shoes_+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7874AC4A28556B8600689417 /* Shoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
 		787849D72853892900CD33A3 /* iOSCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787849DA2853892900CD33A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		787849DC2853892900CD33A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		787849DE2853892900CD33A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		787849E12853892900CD33A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		787849E42853892900CD33A3 /* iOSCaseStudy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSCaseStudy.xcdatamodel; sourceTree = "<group>"; };
+		787849DE2853892900CD33A3 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		787849E62853892E00CD33A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		787849E92853892E00CD33A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		787849EB2853892E00CD33A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787849F228538E6100CD33A3 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		787849F42853967D00CD33A3 /* ShoesDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesDetailScreen.swift; sourceTree = "<group>"; };
+		787849F62853A67400CD33A3 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		787849FA2853B1E200CD33A3 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		B1C7346DBDE29BE245BE0056 /* Pods-iOSCaseStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCaseStudy.release.xcconfig"; path = "Target Support Files/Pods-iOSCaseStudy/Pods-iOSCaseStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E270BE8E789974D566C7C9A4 /* Pods_iOSCaseStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67297CC551F3E6D5C24D7630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E729E1796D16EE3E61CB153 /* Pods_iOSCaseStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7873258E2856846800D90DC9 /* Failed */ = {
+			isa = PBXGroup;
+			children = (
+				7874AC3C2854EA8F00689417 /* CoreData */,
+			);
+			path = Failed;
+			sourceTree = "<group>";
+		};
+		7873258F285684A000D90DC9 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				787849F62853A67400CD33A3 /* UIViewExt.swift */,
+				787849FA2853B1E200CD33A3 /* ImageCell.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		78732590285684B600D90DC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7874AC4A28556B8600689417 /* Shoe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7874AC3C2854EA8F00689417 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7874AC442854ED3C00689417 /* PersistenceManager.swift */,
+				7874AC3D2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld */,
+				7874AC462854F2F900689417 /* Shoes_+CoreDataClass.swift */,
+				7874AC472854F2F900689417 /* Shoes_+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		787849CE2853892900CD33A3 = {
 			isa = PBXGroup;
 			children = (
 				787849D92853892900CD33A3 /* iOSCaseStudy */,
 				787849D82853892900CD33A3 /* Products */,
+				959A37F6064DA634A48FF769 /* Pods */,
+				67297CC551F3E6D5C24D7630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +123,36 @@
 		787849D92853892900CD33A3 /* iOSCaseStudy */ = {
 			isa = PBXGroup;
 			children = (
+				78732590285684B600D90DC9 /* Model */,
+				7873258F285684A000D90DC9 /* Configurations */,
+				7873258E2856846800D90DC9 /* Failed */,
+				787849F128538E3C00CD33A3 /* View */,
 				787849DA2853892900CD33A3 /* AppDelegate.swift */,
 				787849DC2853892900CD33A3 /* SceneDelegate.swift */,
-				787849DE2853892900CD33A3 /* ViewController.swift */,
-				787849E02853892900CD33A3 /* Main.storyboard */,
 				787849E62853892E00CD33A3 /* Assets.xcassets */,
 				787849E82853892E00CD33A3 /* LaunchScreen.storyboard */,
 				787849EB2853892E00CD33A3 /* Info.plist */,
-				787849E32853892900CD33A3 /* iOSCaseStudy.xcdatamodeld */,
 			);
 			path = iOSCaseStudy;
+			sourceTree = "<group>";
+		};
+		787849F128538E3C00CD33A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				787849DE2853892900CD33A3 /* OnboardingScreen.swift */,
+				787849F228538E6100CD33A3 /* MainScreen.swift */,
+				787849F42853967D00CD33A3 /* ShoesDetailScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		959A37F6064DA634A48FF769 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B85077E38C280C4CD48575B /* Pods-iOSCaseStudy.debug.xcconfig */,
+				B1C7346DBDE29BE245BE0056 /* Pods-iOSCaseStudy.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787849EE2853892E00CD33A3 /* Build configuration list for PBXNativeTarget "iOSCaseStudy" */;
 			buildPhases = (
+				35C3B835E627B89ADA82D379 /* [CP] Check Pods Manifest.lock */,
 				787849D32853892900CD33A3 /* Sources */,
 				787849D42853892900CD33A3 /* Frameworks */,
 				787849D52853892900CD33A3 /* Resources */,
+				FD849C6890A72644C54F153C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +217,69 @@
 			files = (
 				787849EA2853892E00CD33A3 /* LaunchScreen.storyboard in Resources */,
 				787849E72853892E00CD33A3 /* Assets.xcassets in Resources */,
-				787849E22853892900CD33A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35C3B835E627B89ADA82D379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSCaseStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD849C6890A72644C54F153C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSCaseStudy/Pods-iOSCaseStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSCaseStudy/Pods-iOSCaseStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSCaseStudy/Pods-iOSCaseStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		787849D32853892900CD33A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787849DF2853892900CD33A3 /* ViewController.swift in Sources */,
-				787849E52853892900CD33A3 /* iOSCaseStudy.xcdatamodeld in Sources */,
+				7874AC4B28556B8700689417 /* Shoe.swift in Sources */,
+				787849F72853A67500CD33A3 /* UIViewExt.swift in Sources */,
+				787849F328538E6100CD33A3 /* MainScreen.swift in Sources */,
+				7874AC3F2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld in Sources */,
+				787849FB2853B1E200CD33A3 /* ImageCell.swift in Sources */,
+				7874AC452854ED3C00689417 /* PersistenceManager.swift in Sources */,
+				787849F52853967D00CD33A3 /* ShoesDetailScreen.swift in Sources */,
+				787849DF2853892900CD33A3 /* OnboardingScreen.swift in Sources */,
 				787849DB2853892900CD33A3 /* AppDelegate.swift in Sources */,
+				7874AC482854F2F900689417 /* Shoes_+CoreDataClass.swift in Sources */,
+				7874AC492854F2F900689417 /* Shoes_+CoreDataProperties.swift in Sources */,
 				787849DD2853892900CD33A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +287,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		787849E02853892900CD33A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				787849E12853892900CD33A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		787849E82853892E00CD33A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +416,7 @@
 		};
 		787849EF2853892E00CD33A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B85077E38C280C4CD48575B /* Pods-iOSCaseStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,7 +426,6 @@
 				INFOPLIST_FILE = iOSCaseStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +443,7 @@
 		};
 		787849F02853892E00CD33A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C7346DBDE29BE245BE0056 /* Pods-iOSCaseStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +453,6 @@
 				INFOPLIST_FILE = iOSCaseStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,13 +492,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		787849E32853892900CD33A3 /* iOSCaseStudy.xcdatamodeld */ = {
+		7874AC3D2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				787849E42853892900CD33A3 /* iOSCaseStudy.xcdatamodel */,
+				7874AC3E2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodel */,
 			);
-			currentVersion = 787849E42853892900CD33A3 /* iOSCaseStudy.xcdatamodel */;
-			path = iOSCaseStudy.xcdatamodeld;
+			currentVersion = 7874AC3E2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodel */;
+			path = iOSCaseStudyCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
