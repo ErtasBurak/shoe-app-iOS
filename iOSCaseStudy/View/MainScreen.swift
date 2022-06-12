@@ -25,6 +25,8 @@ class MainScreen: UIViewController, NavgationTransitionable {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        
         shoes = fetchData()
         configureTableView()
         
@@ -59,7 +61,6 @@ extension MainScreen:UITableViewDelegate,UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: Cells.imageCell) as! ImageCell
         let shoe = shoes[indexPath.row]
         cell.set(shoe: shoe)
-        
         return cell
         
     }
@@ -68,9 +69,7 @@ extension MainScreen:UITableViewDelegate,UITableViewDataSource {
         let detailVC = ShoesDetailScreen()
         let shoeDetail = shoes[indexPath.row]
         detailVC.set(shoe: shoeDetail)
-        
         navigationController?.pushViewController(detailVC, animated: true)
-        //print("Row tapped: \(shoes[indexPath.row])")
       }
     
 }

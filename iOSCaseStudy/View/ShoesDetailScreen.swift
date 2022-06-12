@@ -21,7 +21,7 @@ class ShoesDetailScreen: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("ADD TO CART", for: .normal)
         button.titleLabel?.font =  UIFont.boldSystemFont(ofSize: 17.0)
-        //button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+        button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         //button.layer.borderWidth = 5.0
         //button.layer.borderColor = UIColor.white.cgColor
         button.backgroundColor = UIColor.darkGray
@@ -32,6 +32,10 @@ class ShoesDetailScreen: UIViewController {
     }()
 
     override func viewDidLoad() {
+        
+        self.navigationController!.navigationBar.tintColor = UIColor.darkGray
+
+        self.navigationController?.navigationBar.topItem?.title = ""
         
         view.backgroundColor = .white
         
@@ -54,6 +58,13 @@ class ShoesDetailScreen: UIViewController {
         setPriceConstraints()
         setButtonConstraints()
         setDetailDescriptionConstraints()
+    }
+    
+    @objc func buttonClicked(){
+        let alert = UIAlertController(title: "", message: "Would you like to add to cart?", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Continue", style: UIAlertAction.Style.default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
         
     func set(shoe:Shoe){

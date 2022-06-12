@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		7874AC3F2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC3D2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld */; };
 		7874AC452854ED3C00689417 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC442854ED3C00689417 /* PersistenceManager.swift */; };
-		7874AC482854F2F900689417 /* Shoes_+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC462854F2F900689417 /* Shoes_+CoreDataClass.swift */; };
-		7874AC492854F2F900689417 /* Shoes_+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC472854F2F900689417 /* Shoes_+CoreDataProperties.swift */; };
 		7874AC4B28556B8700689417 /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874AC4A28556B8600689417 /* Shoe.swift */; };
 		787849DB2853892900CD33A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849DA2853892900CD33A3 /* AppDelegate.swift */; };
 		787849DD2853892900CD33A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787849DC2853892900CD33A3 /* SceneDelegate.swift */; };
@@ -29,8 +27,6 @@
 		6B85077E38C280C4CD48575B /* Pods-iOSCaseStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCaseStudy.debug.xcconfig"; path = "Target Support Files/Pods-iOSCaseStudy/Pods-iOSCaseStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		7874AC3E2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSCaseStudyCoreData.xcdatamodel; sourceTree = "<group>"; };
 		7874AC442854ED3C00689417 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
-		7874AC462854F2F900689417 /* Shoes_+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Shoes_+CoreDataClass.swift"; path = "iOSCaseStudy/CoreData/Shoes_+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		7874AC472854F2F900689417 /* Shoes_+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Shoes_+CoreDataProperties.swift"; path = "iOSCaseStudy/CoreData/Shoes_+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		7874AC4A28556B8600689417 /* Shoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
 		787849D72853892900CD33A3 /* iOSCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787849DA2853892900CD33A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,8 +92,6 @@
 			children = (
 				7874AC442854ED3C00689417 /* PersistenceManager.swift */,
 				7874AC3D2854EC1800689417 /* iOSCaseStudyCoreData.xcdatamodeld */,
-				7874AC462854F2F900689417 /* Shoes_+CoreDataClass.swift */,
-				7874AC472854F2F900689417 /* Shoes_+CoreDataProperties.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -278,8 +272,6 @@
 				787849F52853967D00CD33A3 /* ShoesDetailScreen.swift in Sources */,
 				787849DF2853892900CD33A3 /* OnboardingScreen.swift in Sources */,
 				787849DB2853892900CD33A3 /* AppDelegate.swift in Sources */,
-				7874AC482854F2F900689417 /* Shoes_+CoreDataClass.swift in Sources */,
-				7874AC492854F2F900689417 /* Shoes_+CoreDataProperties.swift in Sources */,
 				787849DD2853892900CD33A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

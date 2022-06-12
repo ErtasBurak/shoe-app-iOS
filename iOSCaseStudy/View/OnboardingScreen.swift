@@ -78,6 +78,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
 //        createShoe()
 //        getShoes()
         
@@ -131,30 +133,30 @@ class ViewController: UIViewController {
         navigationController?.tr_pushViewController(mainScreenController, method: TRPushTransitionMethod.fade, completion: nil)
     }
     //create Core Data Object
-    func createShoe(){
-        let shoe1 = Shoes_(context: persistenceManager.context)
-        shoe1.product = "Nike"
-        shoe1.description_ = "Air Jordan 13"
-        shoe1.detaildescription = "Get MJ's confidence in the Air Jordan 13 Navy. Representing strength and coolness in a stylish silhouette, the dimpled mesh Navy upper features glow-in-the-dark reflective threads."
-        shoe1.price = "$300"
-        shoe1.image = "img_Nike-Shoe"
-
-        persistenceManager.save()
-
-        
-    }
-
-    func getShoes(){
-
-        //guard let shoes = try! persistenceManager.context.fetch(Shoes_.fetchRequest()) as? [Shoes_] else {return}
-
-        let shoes = persistenceManager.fetch(Shoes_.self)
-
-        shoes.forEach({print($0.product)})
-
-
-
-    }
+//    func createShoe(){
+//        let shoe1 = Shoes_(context: persistenceManager.context)
+//        shoe1.product = "Nike"
+//        shoe1.description_ = "Air Jordan 13"
+//        shoe1.detaildescription = "Get MJ's confidence in the Air Jordan 13 Navy. Representing strength and coolness in a stylish silhouette, the dimpled mesh Navy upper features glow-in-the-dark reflective threads."
+//        shoe1.price = "$300"
+//        shoe1.image = "img_Nike-Shoe"
+//
+//        persistenceManager.save()
+//
+//
+//    }
+//
+//    func getShoes(){
+//
+//        //guard let shoes = try! persistenceManager.context.fetch(Shoes_.fetchRequest()) as? [Shoes_] else {return}
+//
+//        let shoes = persistenceManager.fetch(Shoes_.self)
+//
+//        shoes.forEach({print($0.product)})
+//
+//
+//
+//    }
 
 }
 
